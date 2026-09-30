@@ -1,0 +1,28 @@
+{
+    "preprocessing_fit_split": "train",
+    "clip_percentile": 0.99,
+    "clip_threshold": 0.00552942000000001,
+    "normalization_min": 2.856e-05,
+    "normalization_max": 0.00552942000000001,
+    "zero_cost_imputation": "median cost of the same dataset-model group, estimated from training data only",
+    "winsorization": "upper-tail clipping at training-set P99",
+    "normalization": "train-derived min-max normalization, with transformed validation/test values bounded to [0, 1]",
+    "utility_definition": "correct - alpha * normalized_cost",
+    "alphas": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        1.0
+    ],
+    "train_group_medians": {
+        "gsm8k__claude": 0.002214,
+        "gsm8k__gemini": 5.13e-05,
+        "gsm8k__gpt": 0.00041275,
+        "gsm8k__qwen": 9.812e-05,
+        "mmlu__claude": 0.002034,
+        "mmlu__gemini": 4.42e-05,
+        "mmlu__gpt": 0.00048087499999999997,
+        "mmlu__qwen": 0.00010924
+    }
+}

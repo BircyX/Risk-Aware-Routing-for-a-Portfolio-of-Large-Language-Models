@@ -1,0 +1,2 @@
+alpha,lambda,changed_decisions,lower_risk_selected_count,lower_risk_selected_rate,lower_mean_selected_count,lower_mean_selected_rate,mean_predicted_mean_difference,mean_risk_difference,mean_penalty_difference,mean_score_margin,mean_realized_utility_difference,wrong_to_correct,correct_to_wrong,both_correct,both_wrong
+0.5,2.0,38,38,1.0,38,1.0,-0.0067345547368421145,-0.012497914210526314,-0.024995828421052628,0.018261272894736835,0.07109497368421051,3,0,35,0

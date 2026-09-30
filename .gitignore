@@ -1,0 +1,80 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Trained model files
+results/models/
+results/ablation_no_category/models/
+
+# Raw / API outputs
+results/raw_outputs.csv
+results/gsm8k_outputs.csv
+results/mmlu_outputs.csv
+
+# Evaluated raw outputs
+results/gsm8k_evaluated.csv
+results/mmlu_evaluated.csv
+
+# Pilot / development outputs
+results/gsm8k_pilot.csv
+results/mmlu_pilot.csv
+results/mmlu_machine_learning_outputs.csv
+
+results/query_features.csv
+results/utility_outputs.csv
+results/risk_aware_member_predictions.csv
+results/risk_aware_validation_predictions_aligned.csv
+results/final_test_predictions_aligned.csv
+results/utility_router_validation_predictions.csv
+results/ablation_no_category/validation_member_predictions.csv
+results/ablation_no_category/validation_predictions.csv
+results/ablation_no_category/test_predictions.csv
+results/prediction_error_analysis/prediction_error_long.csv
+results/prediction_error_analysis/ranking_error_analysis.csv
+results/additional_baselines_summary.csv
+results/final_error_analysis_alpha_05.csv
+results/final_experiment_summary.csv
+results/final_fixed_baseline_decisions.csv
+results/final_fixed_baseline_results.csv
+results/final_pareto_results.csv
+results/final_router_comparison.csv
+results/margin_gated_validation_best.csv
+results/margin_gated_validation_decisions.csv
+results/margin_gated_validation_grid.csv
+results/model_summary.csv
+results/oracle_labels.csv
+results/risk_aware_best_lambdas.json
+results/risk_aware_ensemble_metrics.csv
+results/risk_aware_router_metadata.json
+results/risk_aware_validation_decisions.csv
+results/risk_aware_validation_predictions.csv
+results/risk_aware_validation_summary.csv
+results/risk_signal_validation.csv
+figures/pareto_frontier_final.png
+figures/pareto_frontier_two_panel.pdf
+figures/pareto_frontier_two_panel.png
+COMP0158_SQJX3.pdf
+Dissertation_Report.pdf
+.git_backup/
