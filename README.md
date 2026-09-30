@@ -69,9 +69,6 @@ Model output collection goes through OpenRouter. Create a `.env` file in the rep
 ```env
 OPENROUTER_API_KEY=your_key_here
 ```
-
-`.env` is excluded by `.gitignore` and should never be committed.
-
 > Running `collect_outputs.py` may incur API costs.
 
 ## Experimental Pipeline
